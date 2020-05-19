@@ -1,5 +1,3 @@
-import React from 'react';
-
 import ls from './commands/ls';
 import sudo from './commands/sudo';
 import clear from './commands/clear';
@@ -7,6 +5,8 @@ import cat from './commands/cat';
 import cd from './commands/cd';
 import help from './commands/help'
 import fallthrough from './commands/fallthrough';
+import exit from './commands/exit';
+import rickroll from './commands/rickroll';
 
 const Response = (command) => {
     if (command.match(/^sudo\D*/))
@@ -26,6 +26,12 @@ const Response = (command) => {
     }
     else if (command === "help")
         return help();
+    else if (command === "exit")
+        return exit();
+    else if (command === "rickroll") {
+        window.open('https://www.youtube.com/watch?v=oHg5SJYRHA0', '_newtab');
+        return rickroll();
+    }
     else
         return fallthrough(command.split(' ')[0]);
 }
