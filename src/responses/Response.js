@@ -5,7 +5,6 @@ import cat from './commands/cat';
 import cd from './commands/cd';
 import help from './commands/help'
 import fallthrough from './commands/fallthrough';
-import exit from './commands/exit';
 import rickroll from './commands/rickroll';
 
 const Response = (command) => {
