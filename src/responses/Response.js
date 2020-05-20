@@ -5,7 +5,6 @@ import cat from './commands/cat';
 import cd from './commands/cd';
 import help from './commands/help'
 import fallthrough from './commands/fallthrough';
-import exit from './commands/exit';
 import rickroll from './commands/rickroll';
 
 const Response = (command) => {
@@ -26,10 +25,8 @@ const Response = (command) => {
     }
     else if (command === "help")
         return help();
-    else if (command === "exit")
-        return exit();
-    else if (command === "rickroll") {
-        window.open('https://www.youtube.com/watch?v=oHg5SJYRHA0', '_newtab');
+    else if (command === "exit") {
+        window.location.href = 'https://www.youtube.com/watch?v=oHg5SJYRHA0';
         return rickroll();
     }
     else
