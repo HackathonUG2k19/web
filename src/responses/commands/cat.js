@@ -19,7 +19,7 @@ const cat = name => {
 					<li>The coding round would end at 2000 hours on 24 May. Before This, make sure to merge your fork with the main repository in the organization <a href="https://github.com/HackathonUG2k19">github.com/HackathonUG2k19</a>. The last PR before 8 pm on 24 May will be considered.</li>
 					<li>The team is reqired to give a maximum of a 10 minute presentation on their respective projects, which shall be judged. This will be on a pl	atform like Zoom or  Microsoft teams.</li>
 					<li>Apart From this feel free to join :
-						<a className='d-block' href='/' onClick={(e) => e.preventDefault()}>OSDG Discord Link - To Be Announced</a>
+						<a className='d-block' href='https://discord.gg/Auy98yz'>OSDG Discord Link</a>
 						<a className='d-block' href='https://discord.com/invite/gMB2cJR'>Hackathon server discord link</a>
 					</li>
 				</ol>
