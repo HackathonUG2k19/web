@@ -92,14 +92,29 @@ const cat = name => {
 					<li>Manan Goel</li>
 					<li>Istasis Mishra</li>
 					<li>Devansh Manu</li>
-					<li>Mallika Subramaniam</li>
+					<li>Mallika Subramanian</li>
 					<li>Shraddha Sehgal</li>
 					<li>Aashna Jena</li>
 					<li>Saujas Vadhguru</li>
 					<li>Yoogottam Khandelwal</li>
-					<li>Abhinav Gupta</li>
+					<li>Ansh Puvadda</li>
 					<li>Tanmay Sachan</li>
 					<li>Shaunak Badani</li>
+					<li>Abhinav Gupta</li>
+					<li>Abhigyan Ghosh</li>
+					<li>Kushal Majumdar</li>
+					<li>Neel Trivedi</li>
+					<li>Abhishek Mathur</li>
+					<li>Mayank Modi</li>
+					<li>Zubair Abid</li>
+					<li>Debojit Das</li>
+					<li>Suryansh Srivastava</li>
+					<li>Ujwal Narayan</li>
+					<li>Siddharth Bhat</li>
+					<li>Pratik Kamble</li>
+					<li>Aditya Morolia</li>
+					<li>Sriven Reddy</li>
+					<li>Swaraj Renghe</li>
 				</ul>
 				<p>Thanks a lot guys! You're the best!</p>
 			</div>
